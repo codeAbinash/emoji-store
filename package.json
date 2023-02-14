@@ -1,0 +1,23 @@
+{
+  "name": "emoji",
+  "version": "1.0.0",
+  "description": "Get emojis as png",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeAbinash/emoji.git"
+  },
+  "keywords": [
+    "emoji",
+    "web-emoji"
+  ],
+  "author": "Abinash Karmakar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codeAbinash/emoji/issues"
+  },
+  "homepage": "https://github.com/codeAbinash/emoji#readme"
+}

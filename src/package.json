@@ -1,6 +1,6 @@
 {
-  "name": "emoji",
-  "version": "1.0.1",
+  "name": "emoji-store",
+  "version": "1.0.3",
   "description": "Get emojis as png",
   "main": "index.js",
   "types": "index.d.ts",

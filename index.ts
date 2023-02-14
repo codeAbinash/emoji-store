@@ -46,6 +46,15 @@ export default class Emoji {
         if (emojiProps.size) this.#props.size = emojiProps.size
         if (emojiProps.type) this.#props.type = emojiProps.type
     }
+    set author(auth: string) {
+        this.#props.author = auth
+    }
+    set type(typ: string) {
+        this.#props.type = typ
+    }
+    set size(z: number) {
+        this.#props.size = z
+    }
     get(e: string) {
         return getLink(e, this.#props)
     }

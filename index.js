@@ -44,6 +44,15 @@ export default class Emoji {
         if (emojiProps.type)
             __classPrivateFieldGet(this, _Emoji_props, "f").type = emojiProps.type;
     }
+    set author(auth) {
+        __classPrivateFieldGet(this, _Emoji_props, "f").author = auth;
+    }
+    set type(typ) {
+        __classPrivateFieldGet(this, _Emoji_props, "f").type = typ;
+    }
+    set size(z) {
+        __classPrivateFieldGet(this, _Emoji_props, "f").size = z;
+    }
     get(e) {
         return getLink(e, __classPrivateFieldGet(this, _Emoji_props, "f"));
     }

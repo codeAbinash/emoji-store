@@ -6,7 +6,7 @@ A JavaScript library for platform independent Emojis 😍.
 
 <img src='https://codeAbinash.github.io/emoji-store/images/logo.jpg' style="width:100%">
 
-Supports most of the web technologies : React, Vue, Angular etc.
+Supports most of the web technologies : React, React-Native Vue, Angular, Preact, Lit, Svelte etc.
 ## Install
 ```bash
 npm i emoji-store

@@ -11,7 +11,7 @@ export default class Emoji {
     constructor(emojiProps: EmojiProps | void)
     setProps(emojiProps: EmojiProps) : void
     get(e: string): string
-    static get(e: string, prop : EmojiProps): string
+    static get(e: string, prop : EmojiProps|void): string
     set author(a: string)
     set type(a: string)
     set size(a: number)

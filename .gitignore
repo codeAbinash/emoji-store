@@ -1,1 +1,4 @@
-/test
+node_modules
+build/index.d.ts
+build/index.js
+build/Readme.md

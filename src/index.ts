@@ -23,7 +23,7 @@ function emojiUnicodeChar(emoji: string): string {
   } else if (emoji.length == 2) {
     unicode = (emoji.charCodeAt(0) - 0xd800) * 0x400 + (emoji.charCodeAt(1) - 0xdc00) + 0x10000;
   } else {
-    console.warn(`The emoji '${emoji}' is not suported.`);
+    console.warn(`The emoji '${emoji}' is not supported.`);
   }
   return unicode.toString(16);
 }

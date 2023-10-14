@@ -64,12 +64,12 @@ console.log(customEmoji('🧑🏻‍💻'));
 ```
 
 <img src="https://dataabinash.github.io/emoji/apple/png/160/emojis/1fae2.png" 
-  width="100px" height="100px" alt="🫢" />
+  width="70px" height="70px" alt="🫢" />
 <img src="https://dataabinash.github.io/emoji/apple/png/160/emojis/2764-fe0f-200d-1f525.png" 
-  width="100px" height="100px" alt="❤️‍🔥" />
+  width="70px" height="70px" alt="❤️‍🔥" />
 <img src="https://dataabinash.github.io/emoji/apple/png/160/emojis/1f3c4-1f3fb-200d-2642-fe0f.png" 
-  width="100px" height="100px" alt="🏄🏻‍♂️" />
-<img src="https://dataabinash.github.io/emoji/apple/png/160/emojis/1f9d1-1f3fb-200d-1f4bb.png" width="100px" height="100px" alt="🧑🏻‍💻" />
+  width="70px" height="70px" alt="🏄🏻‍♂️" />
+<img src="https://dataabinash.github.io/emoji/apple/png/160/emojis/1f9d1-1f3fb-200d-1f4bb.png" width="70px" height="70px" alt="🧑🏻‍💻" />
 
 ## Supporting Emojis
 

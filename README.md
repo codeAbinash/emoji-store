@@ -18,16 +18,13 @@ npm i emoji-store
 ## Use
 
 ```tsx
-import Emoji from 'emoji-store';
+import emoji, { Apple160 } from 'emoji-store';
 
 function App() {
-  const e = new Emoji();
   return (
     <div>
-      <img src={e.get('😜')} /> {/*Use like this*/}
-      {/*Default style is apple-png-160px*/}
-      <img src={Emoji.get('👨🏻‍💻', { author: 'apple', size: 64, type: 'png' })} />
-      {/*Or you can use like this*/}
+      <img src={emoji('❤️‍🔥')} /> {/*Default Apple64*/}
+      <img src={emoji('❤️‍🔥', Apple160)} />
     </div>
   );
 }
@@ -35,34 +32,53 @@ function App() {
 export default App;
 ```
 
-## Set properties
-
 ```tsx
-const e = new Emoji();
-e.author = 'facebook';
-e.size = 96;
-e.type = 'png';
+import { Emoji, Facebook96 } from 'emoji-store';
 
-// or like this
-e.setProps({
-  author: 'facebook',
-  size: 96,
-  type: 'png',
-});
+const customEmoji = Emoji(Facebook96);
+
+function App() {
+  return (
+    <div>
+      <img src={customEmoji('❤️‍🔥')} />
+    </div>
+  );
+}
 ```
+
+## Custom Emoji Config
+
+```ts
+const props = {
+  author: 'apple',
+  size: 160,
+  type: 'png',
+};
+
+const customEmoji = Emoji(props);
+
+console.log(customEmoji('🫢'));
+console.log(customEmoji('❤️‍🔥'));
+console.log(customEmoji('🏄🏻‍♂️'));
+console.log(customEmoji('🧑🏻‍💻'));
+```
+
+<img src="https://dataabinash.github.io/emoji/apple/png/160/emojis/1fae2.png" 
+  width="100px" height="100px" alt="🫢" />
+<img src="https://dataabinash.github.io/emoji/apple/png/160/emojis/2764-fe0f-200d-1f525.png" 
+  width="100px" height="100px" alt="❤️‍🔥" />
+<img src="https://dataabinash.github.io/emoji/apple/png/160/emojis/1f3c4-1f3fb-200d-2642-fe0f.png" 
+  width="100px" height="100px" alt="🏄🏻‍♂️" />
+<img src="https://dataabinash.github.io/emoji/apple/png/160/emojis/1f9d1-1f3fb-200d-1f4bb.png" width="100px" height="100px" alt="🧑🏻‍💻" />
 
 ## Supporting Emojis
 
-> It supports the following emojis.
-
-- apple
-  - png type
-    - 64x64px
-    - 160x160px
-- facebook
-  - png type
-    - 64x64px
-    - 96x96px
+| Platform | Type | Size(px) | Constant   |
+| -------- | ---- | -------- | ---------- |
+| Apple    | PNG  | 64       | Apple64    |
+| Apple    | PNG  | 160      | Apple160   |
+| Facebook | PNG  | 64       | Facebook64 |
+| Facebook | PNG  | 96       | Facebook96 |
 
 ## How it works
 

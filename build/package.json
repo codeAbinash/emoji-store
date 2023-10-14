@@ -1,7 +1,7 @@
 {
   "name": "emoji-store",
-  "version": "1.0.6",
-  "description": "Get emojis as png",
+  "version": "2.0.0",
+  "description": "A JavaScript library for platform independent Emojis 😍.",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
@@ -9,16 +9,29 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codeAbinash/emoji.git"
+    "url": "git+https://github.com/codeAbinash/emoji-store.git"
   },
   "keywords": [
     "emoji",
-    "web-emoji"
+    "apple emojis",
+    "Facebook emojis",
+    "web-emoji",
+    "emoji-store",
+    "emoji-link",
+    "emoji-generator",
+    "emoji-unicode",
+    "emoji-unicode-generator",
+    "emoji-unicode-link",
+    "emoji-unicode-store",
+    "emoji-unicode-link-generator",
+    "emoji-unicode-link-store",
+    "emoji-unicode-link-generator-store",
+    "emoji-unicode-link-store-generator"
   ],
   "author": "Abinash Karmakar",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/codeAbinash/emoji/issues"
+    "url": "https://github.com/codeAbinash/emoji-store/issues"
   },
-  "homepage": "https://github.com/codeAbinash/emoji#readme"
+  "homepage": "https://github.com/codeAbinash/emoji-store#readme"
 }

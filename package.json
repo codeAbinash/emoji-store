@@ -2,7 +2,7 @@
   "scripts": {
     "build": "tsc && uglifyjs build/index.js -o build/index.js -c -m",
     "test": "vitest",
-    "test-ui" : "vitest --ui",
+    "test-ui": "vitest --ui",
     "prettier": "prettier --check .",
     "prettier-write": "prettier --write ."
   },
